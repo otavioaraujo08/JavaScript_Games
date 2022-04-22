@@ -5,6 +5,7 @@ Projetos - Em construção...  🚧
 =================
 <!--ts-->
    * ✂️ Pedra-Papel-Tesoura
+   * 🧩 Jogo da Memória
    * 🚧 Loading... 
 <!--te-->
 
