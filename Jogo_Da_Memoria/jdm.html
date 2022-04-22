@@ -7,13 +7,27 @@
     <title>Jogo da Memória</title>
 </head>
 <body>
+    <h1 id="titulo" style=" font-family: 'Fjalla One', sans-serif; 
+        color: #212529;"
+    >
+        Bem vindo Ao Histórico Jogo da Velha  !
+    </h1>
 
-    <h3>
-        Pontuação !
-        <span id="pontuacao"></span>
-    </h3>
+    <div class="container">
+        <div class="content">
+            <h2 style="color: #000000;">
+                Pontuação !
+                <span 
+                  style="color: #ffea00;" 
+                  id="pontuacao">
+                </span>
+            </h2>
 
-    <div id="grid"></div>
+            <div class="botoes">
+                <div 
+                  id="grid"></div>
+            </div>
+        </div>
 
     <!-- Nosso Script -->
     <script src="jdm.js"></script>
@@ -21,9 +35,40 @@
 </html>
 
 <style>
+    body {
+        background: url('https://cdnb.artstation.com/p/assets/images/images/010/448/871/medium/peter-spiecker-floresta-2.jpg?1524500133');
+    }
+
+    h1, h2 {
+        font-weight: 900;
+        text-align: center;
+    }
+
+    .container  {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        height: 420px;
+        width: 1300px;
+        background: rgba( 255, 255, 255, 0.25 );
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0 0 20px 8px #d0d0d0;
+    }
+
     #grid {
-        width: 200px;
-        height: 200px;
         display: flex;
+        height: 130px;
+        margin: 100px 0 0 100px;
+    }
+
+    #titulo {
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 3px );
+        border-radius: 10px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
     }
 </style>

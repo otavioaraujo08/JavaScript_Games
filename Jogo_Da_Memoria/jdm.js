@@ -1,36 +1,44 @@
 // Minha lista de cartas
 const listaCartas = [
     { 
-        nome: 'aurelion',
-        img: 'assets/aurelion.jpg'
+        nome: 'cenario1',
+        img: 'assets/cenario1.jpg'
     },
     { 
-        nome: 'aurelion',
-        img: 'assets/aurelion.jpg'
+        nome: 'cenario1',
+        img: 'assets/cenario1.jpg'
     },
     { 
-        nome: 'champs',
-        img: 'assets/champs.jpg'
+        nome: 'cenario2',
+        img: 'assets/cenario2.webp'
     },
     { 
-        nome: 'champs',
-        img: 'assets/champs.jpg'
+        nome: 'cenario2',
+        img: 'assets/cenario2.webp'
     },
     { 
-        nome: 'jhin',
-        img: 'assets/jhin.jpg'
+        nome: 'cenario3',
+        img: 'assets/cenario3.jpg'
     },
     { 
-        nome: 'jhin',
-        img: 'assets/jhin.jpg'
+        nome: 'cenario3',
+        img: 'assets/cenario3.jpg'
     },
     { 
-        nome: 'shen',
-        img: 'assets/shen.jpg'
+        nome: 'cenario4',
+        img: 'assets/cenario4.jpg'
     },
     { 
-        nome: 'shen',
-        img: 'assets/shen.jpg'
+        nome: 'cenario4',
+        img: 'assets/cenario4.jpg'
+    },
+    { 
+        nome: 'cenario5',
+        img: 'assets/cenario5.jpg'
+    },
+    { 
+        nome: 'cenario5',
+        img: 'assets/cenario5.jpg'
     },
 ]
 
@@ -85,9 +93,8 @@ function verificarIgualdade() {
     const opcaoUm = cartasEscolhidasId[0]
     const opcaoDois = cartasEscolhidasId[1]
 
-    console.log('Chamou')
-
-    if (opcaoDois == opcaoDois) {
+    // Se a 
+    if (opcaoUm === opcaoUm) {
         console.log('Você clicou na mesma carta !')
     }
 
